@@ -1,8 +1,8 @@
 # generate qr code
 
-# import pyqrcode
-# qr = pyqrcode.create('Welcome Mr. Stark')
-# qr.png('testqr.png', scale=10)
+import pyqrcode
+qr = pyqrcode.create('Welcome Mr. Stark')
+qr.png('testqr.png', scale=10)
 
 #  read qr code
 
